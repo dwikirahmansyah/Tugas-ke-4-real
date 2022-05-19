@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 4</title>
+	<script src="style.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+	<style>
+
+		body{
+
+	background-color: #eee;
+	font-family: sans-serif;
+}
+
+ .halo{
+
+	
+	justify-content: center;
+	height: 93vh;
+	display: flex;
+
+}
+
+.date{
+	display: flex;
+}
+.date div{
+
+	width: 50%;
+
+}
+.Chek{
+	margin-top: 15px;
+
+}
+
+
+
+.hasil-project{
+	background: white;
+	padding: 5vh 5vw;
+}
+/*nav*/
+.index-upload-blog{
+	background-color: white;
+	height: 7vh;
+	display: flex;
+}
+.index-upload-blog div{
+	align-items:center;
+	display: flex;
+}
+.index-upload-blog .index-upload-one ul li{
+	display: inline;
+	margin-left: 40px;
+}
+.index-upload-blog .index-upload-one ul li a{
+	text-decoration: none;
+	font-weight: 700;
+}
+.index-upload-blog .index-upload-one ul{
+	list-style-type: none;
+	margin-left: 30px;
+}
+.index-upload-blog .index-upload-contact a{
+	color: white;
+			text-decoration: none;
+			padding: 8px 20px;
+			background-color: black;
+			border-radius: 8px;
+			margin-right: 80px;
+			border: none;
+			font-weight: 700;
+}
+
+.index-upload-blog .index-upload-contact{
+	flex: 50%;
+	padding-left: 14px;
+	justify-content: flex-end;
+}
+}
+
+
+
+
+
+
+	</style>
+
+</head>
+<body style="margin: 0px;">
+	<nav class="index-upload-blog">
+		<div class="index-upload-one">
+			<img src="logo.png" style="padding-left: 90px;">
+			<ul>
+				<li>
+					<a href="index.html.html" class="index-upload-Home">Home</a>
+				</li>
+				<li>
+					<a href="#" class="index-uploadd">My project</a>
+				</li>
+			</ul>
+			</div>
+			<div class="index-upload-contact"><a href="contactme.html">Contact Me</a></div></nav>
+	<body>
+	<div"><h1 style="text-align: center;">GET IN TOUCH</h1></div>
+
+	<div class="halo">
+		
+		<form style="width: 400px">
+			
+			<div style="margin-bottom: 20px">
+				
+				<label for="textname" style="font-size: 20px; font-weight: 700">Project Name</label>
+				<input type="text"
+
+				id="textname" 
+
+				name="textname" style="width: 100%; background-color: white;border: 1px solid white;padding: 8px;margin-top: 5px;border-radius: 8px">
+			</div>
+			<div class="date">
+			<div >
+				
+				<label for="" style="font-size: 20px; font-weight: 700;">Start Date</label>
+				<input type="date" name="" id="Stardate" style="width: 160px;background-color: white;border: 1px solid white;padding: 8px;margin-top: 5px;border-radius:8px;">
+			</div>
+
+			<div >
+				<label for="" style="font-size: 20px; font-weight: 700;">End Date</label>
+				<input type="date" name="" id="Enddate" style="width: 200px;background-color: white;border: 1px solid white;padding: 8px;margin-top: 5px;border-radius:8px;">
+			</div>
+			</div>
+			<br>
+			<div>
+				<label for="Komentar" style="font-size: 20px;font-weight: 700;">Your Massage</label>
+				<textarea id="Komentar"style=
+				"width: 100%;
+				background-color: white;
+				border: 1px solid white;
+				padding: 8px;
+				margin-top: 5px;
+				border-radius: 8px;
+				resize: none;
+				border-radius: 8px;
+				"cols="30"
+				rows="10"></textarea>
+			</div>
+			<br>
+			<div>
+				<label for="checkBox" style="font-size: 20px;font-weight: 700;">Tecnologies</label>
+				<div class="chek-one" style="display: flex;"></div>
+				<div class="kiri">
+					<input type="checkBox" name="Node" value="Node" id="Node"><label for="Node" class="one">Node Js</label>
+					<input type="checkBox" name="react" value="react" id="react"><label for="react" class="two">React JS</label>
+					
+					</div>
+					<div class="kanan">
+					<input type="checkBox" name="Next" value="Next" id="Next" ><label for="Next" class="three">Next Js</label>
+					<input type="checkBox" name="Type" value="Type" id="Type" ><label for="Type" class="four">Typescript</label>
+				</div>
+			</div>
+			<br>
+			<div>
+				<label style="font-size: 20px;font-weight: 700;">Upload Image</label>
+				
+			</div>
+			<div class="container" style="margin-bottom: 10px;">
+				<label for="Green-upload" style="display: flex;">
+					<p style="width: 20%;
+			    height:28px;
+			    padding-left: 8px;
+			    margin-top: 3px;
+			    color: black;
+			    border: 1px solid grey;
+			    background-color: grey;
+			    border-top-left-radius: 4px;
+			    border-bottom-left-radius: 4px;display: flex;">Choose</p>
+				<i class="fa-solid fa-paperclip" style="position: absolute;padding-top: 10px; margin-left:70px;border: 1px solid white;width: 40px;background-color: white;padding-left:310px;height: 20px;margin-top: 2px;
+				
+				"></i>
+
+				</label>
+				<input type="file" class="upload-image" id="Green-upload" hidden>
+			</div>
+           <div>
+           	<button type="button" style="
+           	cursor: pointer;
+           	background-color: black;
+           	color: white;
+           	border: none;
+           	padding: 8px 30px;	
+           	border-radius: 10px;
+           	margin-left: 320px;
+           	margin-top:   -400px
+           	" onclick="addsubmit()">Submit</button>
+           </div>
+            	</form>
+            </div>
+            <div class="hasil-project">
+            	<h1 style="text-align: center;">MY PROJECT</h1>
+            	<div class="Project-container" id="project-container" style="display: grid;
+    margin: auto;
+    max-width: 80%;
+    gap: 10px;
+    grid-template-columns: repeat(3,minmax(0,1fr));"></div>
+            </div>
+
+</body>
+</html>

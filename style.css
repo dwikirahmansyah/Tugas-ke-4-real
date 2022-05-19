@@ -1,0 +1,221 @@
+	/*index.html*/
+	body{
+
+	background-color: #eee;
+	font-family: sans-serif;
+}
+
+ .halo{
+
+	
+	justify-content: center;
+	height: 93vh;
+	display: flex;
+
+}
+
+.date{
+	display: flex;
+}
+.date div{
+
+	width: 50%;
+
+}
+.Chek{
+	margin-top: 15px;
+
+}
+
+
+.halo form .upload-image{
+	font-size: 16px;
+	background: white;
+	border-radius: 8px;
+	
+	outline: none;
+	width: 100%;
+	border: 1px solid white;
+}
+
+.hasil-project{
+	background: white;
+	padding: 5vh 5vw;
+}
+/*Beranda-html*/
+.Beranda-height{
+	background-color: white;
+	height: 7vh;
+	display: flex;
+}
+.Beranda-height div{
+	align-items:center;
+	display: flex;
+}
+.Beranda-height .Beranda-hnine ul li{
+	display: inline;
+	margin-left: 40px;
+}
+.Beranda-height .Beranda-hnine ul li a{
+	text-decoration: none;
+	font-weight: 700;
+}
+.Beranda-hight .Beranda-hnine ul{
+	list-style-type: none;
+	margin-left: 30px;
+}
+.Beranda-height .Beranda-height-three a{
+	color: white;
+			text-decoration: none;
+			padding: 8px 20px;
+			background-color: black;
+			border-radius: 8px;
+			margin-right: 80px;
+			border: none;
+			font-weight: 700;
+
+}
+.Beranda-height .Beranda-height-three{
+	flex: 50%;
+	padding-left: 14px;
+	justify-content: flex-end;
+}
+
+
+
+ .Beranda-hone h1{
+	text-align: center;
+}
+
+.Beranda-htwo form{
+
+	width: 400px
+}
+
+
+ .Beranda-hthree input{
+
+	width: 100%;
+	 background-color: white;
+	 border: 1px solid black;
+	 padding: 8px;
+	 margin-top: 5px;
+	border-radius: 8px
+}
+
+.Beranda-hfour input{
+	width: 100%;
+	 background-color: white;
+	 border: 1px solid black;
+	 padding: 8px;
+	 margin-top: 5px;
+	border-radius: 8px
+}
+
+.Beranda-hfive input {
+	width: 100%;
+	 background-color: white;
+	 border: 1px solid black;
+	 padding: 8px;
+	 margin-top: 5px;
+	border-radius: 8px
+
+}
+
+.Beranda-hsix select{
+	width: 105%;
+					background-color: white;
+					border: 1px solid black;
+					padding: 8px;
+					margin-top: 5px;
+					border-radius: 8px;
+
+}
+.Beranda-hsix label{
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.Beranda-hseven label{
+	font-weight: 700;
+	font-size: 20px;
+}
+.Beranda-hseven textarea{
+	width: 100%;
+				background-color: white;
+				border: 1px solid black;
+				padding: 8px;
+				margin-top: 5px;
+				border-radius: 8px;
+				resize: none;
+				
+				border-radius: 8px;
+}
+
+
+.Beranda-htwo{
+	justify-content: center;
+	height: 93vh;
+	display: flex;
+}
+/*Detail-html*/
+.detail-blog-two{
+	background-color: white;
+	height: 7vh;
+	display: flex;
+}
+.detail-blog-two div{
+	align-items:center;
+	display: flex;
+}
+.detail-blog-two .detail-blog-kiri ul li{
+	display: inline;
+	margin-left: 40px;
+}
+.detail-blog-two .detail-blog-kiri ul li a{
+	text-decoration: none;
+	font-weight: 700;
+}
+.detail-blog-two .detail-blog-kiri ul{
+	list-style-type: none;
+	margin-left: 30px;
+}
+.detail-blog-two .detail-blog-three a{
+	color: white;
+			text-decoration: none;
+			padding: 8px 20px;
+			background-color: black;
+			border-radius: 8px;
+			margin-right: 80px;
+			border: none;
+			font-weight: 700;
+}
+.detail-blog-two .detail-blog-three{
+	flex: 50%;
+	padding-left: 14px;
+	justify-content: flex-end;
+}
+
+.detail-blog-five img{
+	object-fit: cover;
+	border-radius: 10px;
+	width: 800px;
+	margin-left: 100px;
+}
+.detail-blog-five{
+	display: flex;
+	height: 70vh;
+	margin-bottom: 20px;
+}
+.detail-blog-nine{
+	text-align: justify;
+	
+
+
+}
+.detail-blog-eight{
+	display: grid;
+	
+
+
+}
